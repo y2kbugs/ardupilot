@@ -97,7 +97,8 @@ const AP_ToneAlarm::Tone AP_ToneAlarm::_tones[] {
 #define AP_NOTIFY_TONE_NO_SDCARD 30
     { "MNBGG", false },
 #define AP_NOTIFY_TONE_EKF_ALERT 31
-    { "MBNT255>A#8A#8A#8A#8P8A#8A#8A#8A#8P8A#8A#8A#8A#8P8A#8A#8A#8A#8", true },
+	{ "MFT60L4O4eL16O4eO4eO4dL8O4eL4O4fL4O4dL16O4dO4dO4cL8O4dL4O4e", false },
+    //{ "MBNT255>A#8A#8A#8A#8P8A#8A#8A#8A#8P8A#8A#8A#8A#8P8A#8A#8A#8A#8", true },
 };
 
 bool AP_ToneAlarm::init()
